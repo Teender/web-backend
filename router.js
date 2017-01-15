@@ -9,6 +9,8 @@ module.exports = (app) => {
     let school = req.query.school;
     let message = req.query.message;
 
+    console.log('email = ' + email);
+
     if (!emailValidator.validate(email)) {
       res.status(400).send({error: 'invalid email'});
     } else {
@@ -34,6 +36,9 @@ module.exports = (app) => {
               res.status(400).send({error: err});
             }
           });
+        } else {
+          console.error('o faq');
+          res.status(500).send();
         }
       });
     }
