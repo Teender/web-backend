@@ -1,0 +1,31 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "Web app for Teender",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Teender/web.git"
+  },
+  "author": "Marc Bacvanski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Teender/web/issues"
+  },
+  "homepage": "https://github.com/Teender/web#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2"
+  }
+}
