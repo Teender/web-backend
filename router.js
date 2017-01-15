@@ -37,7 +37,7 @@ module.exports = (app) => {
             }
           });
         } else {
-          console.error('o faq');
+          console.error('o faq ' + err);
           res.status(500).send();
         }
       });
