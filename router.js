@@ -8,6 +8,7 @@ module.exports = (app) => {
     let email = req.query.email;
     let school = req.query.school;
     let message = req.query.message;
+    let requestCode = req.query.code;
 
     console.log('email = ' + email);
 
@@ -22,7 +23,8 @@ module.exports = (app) => {
         subject: 'An Anonymous Admirer Invites You to Join Teender',
         text: 'Hey there, beautiful! An anonymous friend from ' + school + ' on Facebook wants you to join Teender, ' +
         'a social app for teens around the world. ' + message + '\n Download the app for iOS: ' +
-        'google.com/foobar \n Download the app for Android: google.com/foobar',
+        'google.com/foobar \n Download the app for Android: google.com/foobar \n When you join, be sure to ' +
+        'enter this code: ' + requestCode,
       });
 
       // Override any default option and send email
