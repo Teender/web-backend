@@ -1,7 +1,7 @@
 {
-  "name": "web",
+  "name": "web-backend",
   "version": "1.0.0",
-  "description": "Web app for Teender",
+  "description": "Web backend for Teender",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Teender/web.git"
+    "url": "git+https://github.com/Teender/webi-backend.git"
   },
-  "author": "Marc Bacvanski",
+  "author": "Marc Bacvanski or it depends",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Teender/web/issues"
   },
-  "homepage": "https://github.com/Teender/web#readme",
+  "homepage": "https://github.com/Teender/web-backend#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
     "connect-flash": "^0.1.1",
